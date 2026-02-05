@@ -32,22 +32,22 @@ const banner = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f
 }, ("TURBOPACK compile-time value", void 0));
 const navbar = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$nextra$2d$theme$2d$docs$2f$dist$2f$components$2f$navbar$2f$index$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Navbar"], {
     logo: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("b", {
-        children: "Nextra"
+        children: "PolaPori中文翻译站"
     }, void 0, false, {
         fileName: "[project]/app/layout.jsx",
         lineNumber: 14,
-        columnNumber: 11
+        columnNumber: 15
     }, void 0)
 }, void 0, false, {
     fileName: "[project]/app/layout.jsx",
     lineNumber: 13,
-    columnNumber: 3
+    columnNumber: 5
 }, ("TURBOPACK compile-time value", void 0));
 const footer = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$nextra$2d$theme$2d$docs$2f$dist$2f$components$2f$footer$2f$index$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Footer"], {
     children: [
-        "MIT ",
+        " 2025- ",
         new Date().getFullYear(),
-        " © Nextra."
+        " @Arsenides"
     ]
 }, void 0, true, {
     fileName: "[project]/app/layout.jsx",
@@ -57,7 +57,7 @@ const footer = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f
 async function RootLayout({ children }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("html", {
         // Not required, but good for SEO
-        lang: "en",
+        lang: "zh-cn",
         // Required to be set
         dir: "ltr",
         // Suggested by `next-themes` package https://github.com/pacocoursey/next-themes#with-app
@@ -66,11 +66,11 @@ async function RootLayout({ children }) {
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$nextra$2f$dist$2f$client$2f$components$2f$head$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Head"], {}, void 0, false, {
                 fileName: "[project]/app/layout.jsx",
                 lineNumber: 30,
-                columnNumber: 7
+                columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("body", {
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$nextra$2d$theme$2d$docs$2f$dist$2f$layout$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Layout"], {
-                    banner: banner,
+                    // banner={banner} 暂时隐藏了Banner
                     navbar: navbar,
                     pageMap: await (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$nextra$2f$dist$2f$server$2f$page$2d$map$2f$get$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["getPageMap"])(),
                     docsRepositoryBase: "https://github.com/shuding/nextra/tree/main/docs",
@@ -79,18 +79,18 @@ async function RootLayout({ children }) {
                 }, void 0, false, {
                     fileName: "[project]/app/layout.jsx",
                     lineNumber: 36,
-                    columnNumber: 9
+                    columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/layout.jsx",
                 lineNumber: 35,
-                columnNumber: 7
+                columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/layout.jsx",
         lineNumber: 22,
-        columnNumber: 5
+        columnNumber: 9
     }, this);
 }
 }),

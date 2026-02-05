@@ -1,3 +1,13 @@
 {
-  "/[[...mdxPath]]/page": "app/[[...mdxPath]]/page.js"
+  "/intro/band/page": "app/intro/band/page.js",
+  "/intro/character/akari/page": "app/intro/character/akari/page.js",
+  "/intro/character/chiaki/page": "app/intro/character/chiaki/page.js",
+  "/intro/character/gekka/page": "app/intro/character/gekka/page.js",
+  "/intro/character/hinata/page": "app/intro/character/hinata/page.js",
+  "/intro/character/itsuki/page": "app/intro/character/itsuki/page.js",
+  "/intro/character/kyosuke/page": "app/intro/character/kyosuke/page.js",
+  "/intro/character/romeo/page": "app/intro/character/romeo/page.js",
+  "/intro/character/souichi/page": "app/intro/character/souichi/page.js",
+  "/intro/project/page": "app/intro/project/page.js",
+  "/page": "app/page.js"
 }
