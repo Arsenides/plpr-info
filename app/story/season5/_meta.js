@@ -22,5 +22,8 @@ export default {
     },
     g08 : {
         title: '第8话 童话 教训 关于爱'
+    },
+    g09 : {
+        title: '第9话 契机的信'
     }
 }
