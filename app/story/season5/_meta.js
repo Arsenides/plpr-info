@@ -25,5 +25,8 @@ export default {
     },
     g09 : {
         title: '第9话 契机的信'
+    },
+    g10 : {
+        title: '第10话 让人想喝酒的情境'
     }
 }
