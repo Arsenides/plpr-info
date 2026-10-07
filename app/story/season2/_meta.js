@@ -4,5 +4,8 @@ export default {
     },
     h02 : {
         title: '第2话 我的天敌'
+    },
+    h03 : {
+        title: '第3话 头痛的根源与音乐室'
     }
 }
