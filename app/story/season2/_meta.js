@@ -7,5 +7,8 @@ export default {
     },
     h03 : {
         title: '第3话 头痛的根源与音乐室'
+    },
+    h04 : {
+        title: '第4话 第一次交朋友'
     }
 }
