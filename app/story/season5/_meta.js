@@ -28,5 +28,8 @@ export default {
     },
     g10 : {
         title: '第10话 让人想喝酒的情境'
+    },
+    g11 : {
+        title: '第11话 chirp×chirp'
     }
 }
