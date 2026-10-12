@@ -33,6 +33,6 @@ export default {
         title: '第11话 chirp×chirp'
     },
     g12 : {
-        title: '第12话 家人'
+        title: '第12话 又当满月之夜'
     }
 }
