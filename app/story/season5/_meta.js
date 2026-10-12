@@ -31,5 +31,8 @@ export default {
     },
     g11 : {
         title: '第11话 chirp×chirp'
+    },
+    g12 : {
+        title: '第12话 家人'
     }
 }
