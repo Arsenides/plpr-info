@@ -6,8 +6,12 @@ import { LastUpdated } from 'nextra-theme-docs'
 
 
 export const metadata = {
-    // Define your metadata here
-    // For more information on metadata API, see: https://nextjs.org/docs/app/building-your-application/optimizing/metadata
+    title: {
+        // Define your metadata here
+        // For more information on metadata API, see: https://nextjs.org/docs/app/building-your-application/optimizing/metadata
+        default: '北极星小站 — PolaPori 中文翻译站',
+        template: '%s · 北极星小站',
+    }
 }
 
 const banner = <Banner storageKey="some-key">Nextra 4.0 is released 🎉</Banner>
