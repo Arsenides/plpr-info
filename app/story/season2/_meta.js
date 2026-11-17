@@ -13,5 +13,8 @@ export default {
     },
     h05 : {
         title: '第5话 另一个人'
+    },
+    h06 : {
+        title: '第6话 朋友真好啊'
     }
 }
