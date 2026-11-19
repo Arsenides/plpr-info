@@ -16,5 +16,8 @@ export default {
     },
     h06 : {
         title: '第6话 朋友真好啊'
+    },
+    h07 : {
+        title: '第7话 为朋友而烦恼'
     }
 }
