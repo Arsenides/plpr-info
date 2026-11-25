@@ -1,5 +1,5 @@
 import { Footer, Layout, Navbar } from 'nextra-theme-docs'
-import { Banner, Head } from 'nextra/components'
+import { Banner, Head, Search } from 'nextra/components'
 import { getPageMap } from 'nextra/page-map'
 import './globals.css'
 import { LastUpdated } from 'nextra-theme-docs'
@@ -48,6 +48,14 @@ export default async function RootLayout({ children }) {
                     navbar={navbar}
                     pageMap={await getPageMap()}
                     docsRepositoryBase="https://github.com/Arsenides/plpr-info/tree/main/"
+
+                    // 汉化了搜索框全部文案（默认均为英文）
+                    search={<Search
+                        placeholder="搜索文档…"
+                        emptyResult="没有找到结果"
+                        errorText="搜索索引加载失败"
+                        loading="加载中…"
+                    />}
 
                     // 汉化布局
                     copyPageButton={false}

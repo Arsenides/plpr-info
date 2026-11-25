@@ -19,5 +19,8 @@ export default {
     },
     h07 : {
         title: '第7话 为朋友而烦恼'
+    },
+    h08 : {
+        title: '第8话 朋友真厉害'
     }
 }
